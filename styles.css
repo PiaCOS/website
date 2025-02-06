@@ -2,6 +2,11 @@ body {
     background-color: rgb(0, 0, 0);
     color: rgb(198, 198, 198);
     font-family: "Space Mono";
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 
 }
 
