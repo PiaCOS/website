@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(198, 198, 198);
+    font-family: "Space Mono";
+
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    color: rgb(198, 198, 198);
+    font-family: "Space Mono";
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+strong {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: white
+}
+h2 {
+    color: white
+}
+h3 {
+    color: white
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.horizontal {
+    display: inline-block;
+}
+
+.main {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.intro {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.who-am-i {
+    color: white;
+}
+
+/* Links */
+a:link {
+    color: rgb(250, 137, 9);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(250, 137, 9);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(250, 101, 9);;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Fonts */
+.space-mono-regular {
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.space-mono-bold {
+    font-family: "Space Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.space-mono-regular-italic {
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.space-mono-bold-italic {
+    font-family: "Space Mono", serif;
+    font-weight: 700;
+    font-style: italic;
+}
