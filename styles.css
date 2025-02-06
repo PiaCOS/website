@@ -2,13 +2,71 @@ body {
     background-color: rgb(0, 0, 0);
     color: rgb(198, 198, 198);
     font-family: "Space Mono";
-    font-size: 12;
+    font-size: 12px;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+}
 
+/* Adjust padding and margins for smaller screens */
+@media (max-width: 768px) {
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
 
+    nav {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 3%;
+    }
+
+    .main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .intro {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    section {
+        margin-bottom: 2%;
+    }
+}
+
+/* Adjust padding for very small screens like phones */
+@media (max-width: 480px) {
+    body {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .main {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .intro {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    nav {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 2%;
+    }
+
+    section {
+        margin-bottom: 1.5%;
+    }
 }
 
 nav {
@@ -29,13 +87,13 @@ strong {
 }
 
 h1 {
-    color: white
+    color: white;
 }
 h2 {
-    color: white
+    color: white;
 }
 h3 {
-    color: white
+    color: white;
 }
 
 hr {
@@ -75,7 +133,7 @@ a:visited {
 }
 
 a:hover {
-    color: rgb(250, 101, 9);;
+    color: rgb(250, 101, 9);
     background-color: transparent;
     text-decoration: underline;
 }
@@ -91,8 +149,8 @@ a:active {
     font-family: "Space Mono", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
 .space-mono-bold {
     font-family: "Space Mono", serif;
     font-weight: 700;
