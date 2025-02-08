@@ -22,10 +22,11 @@ body {
 
 .box {
     width: 400px;
-    height: 350px;
+    height: 360px;
     font-family: "Space Mono";
-    font-size: 12px;
-    color: rgb(112, 112, 112);
+    font-size: 14px;
+    /* color: rgb(123, 123, 123); */
+    color: rgb(153, 87, 22);
     overflow: hidden;
     white-space: pre-line;
     text-align: center;
